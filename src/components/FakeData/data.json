@@ -1,0 +1,17 @@
+[{
+  "id": 1,
+  "name": "BIKE",
+  "image": "https://www.drivespark.com/images/2019-08/suzuki-gixxer-sf-250-motogp-5.jpg"
+}, {
+  "id": 2,
+  "name": "CAR",
+  "image": "https://cdn.pixabay.com/photo/2012/04/12/23/48/car-30990__340.png"
+}, {
+  "id": 3,
+  "name": "BUS",
+  "image": "https://pngimg.com/uploads/bus/bus_PNG8618.png"
+}, {
+  "id": 4,
+  "name": "TRAIN",
+  "image": "https://pngimg.com/uploads/trian/trian_PNG16629.png"
+}]

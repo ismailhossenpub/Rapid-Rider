@@ -1,0 +1,21 @@
+.header{
+    
+   
+}
+
+.nav{
+    
+    margin-top: 20px;
+}
+.nav li{
+    
+    display: inline;
+    margin-left: 50px;
+    
+  }
+  
+  .nav a{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+  }
