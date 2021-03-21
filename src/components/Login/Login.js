@@ -176,12 +176,7 @@ function Login() {
                 <br />
                 <input type="text" onBlur={handleInput} name="email" placeholder="Email" required />
                 <br />
-                <input type="password" onBlur={handleInput} name="password" placeholder="Password" required />
-                <br />
-                {
-                    newUser && <input type="password" onBlur={handleInput} name="confirmPassword" placeholder="Confirm Password" />
-                }
-                
+                <input type="password" onBlur={handleInput} name="password" placeholder="Password" required /> 
                 <br />
                 <input type="submit" value={newUser ? 'Sign Up' : 'Log In'} />
 
@@ -202,23 +197,12 @@ function Login() {
             {
                 user.success && <p style={{ color: 'green' }}>Your account {newUser ? 'created' : 'Log In'} successfully</p>
             }
-         <h4> or </h4>
-
-            {
-                user.isLoggedIn ? <button onClick={handleSignOut}>Sign Out</button> : <button onClick={handleSignIn}>Log In using Google</button>
-            }
+         <h4>------------ or -------------- </h4>
+            <div login-btn>
+            <button className="btn btn-success" onClick={handleSignIn}>  Login using Google  </button>
             <br />
-             <button onClick={handleFbSignIn}>Log in using Facebook</button>
-
-
-
-
-
-
-
-
-
-
+             <button className="btn btn-success "  onClick={handleFbSignIn}>Login using Facebook</button>
+            </div>
             </div>
 
         

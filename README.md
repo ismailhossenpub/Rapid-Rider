@@ -2,7 +2,7 @@
 **I am create a "Rapid Rider" website(uses react router with firebase). It has many feature .**
 >Given that is:
 
-[My website live link](https://optimistic-neumann-023e52.netlify.app/)
+[My website live link](https://auth-recap-project-5e858.web.app/)
 
 ### Some added features my website:
 ### --( Home page )--
