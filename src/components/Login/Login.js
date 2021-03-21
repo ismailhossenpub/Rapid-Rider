@@ -108,13 +108,15 @@ function Login() {
         if (newUser && user.email && user.password) {
           firebase.auth().createUserWithEmailAndPassword(user.email, user.password)
           .then(res => {
-              const newUserInfo = { ...user }
+              const newUserInfo = { ...res.user }
+
               newUserInfo.success = true;
               newUserInfo.error = '';
               setUser(newUserInfo);
               setLoggedIn(newUserInfo);
+              updateUsername(user.name);
               history.replace(from);
-              // updateUsername(user.name);
+             
           })
   .catch((error) => {
     var errorCode = error.code;
