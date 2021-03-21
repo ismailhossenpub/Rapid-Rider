@@ -1,17 +1,21 @@
 [{
   "id": 1,
   "name": "BIKE",
-  "image": "https://www.drivespark.com/images/2019-08/suzuki-gixxer-sf-250-motogp-5.jpg"
+  "image": "https://www.drivespark.com/images/2019-08/suzuki-gixxer-sf-250-motogp-5.jpg",
+  "price":"$70"
 }, {
   "id": 2,
   "name": "CAR",
-  "image": "https://cdn.pixabay.com/photo/2012/04/12/23/48/car-30990__340.png"
+  "image": "https://cdn.pixabay.com/photo/2012/04/12/23/48/car-30990__340.png",
+  "price":"$80"
 }, {
   "id": 3,
   "name": "BUS",
-  "image": "https://pngimg.com/uploads/bus/bus_PNG8618.png"
+  "image": "https://pngimg.com/uploads/bus/bus_PNG8618.png",
+  "price":"$90"
 }, {
   "id": 4,
   "name": "TRAIN",
-  "image": "https://pngimg.com/uploads/trian/trian_PNG16629.png"
+  "image": "https://pngimg.com/uploads/trian/trian_PNG16629.png",
+  "price":"$99"
 }]
