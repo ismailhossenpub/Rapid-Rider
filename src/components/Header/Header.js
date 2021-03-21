@@ -5,6 +5,7 @@ import "./Header.css";
 
 const Header = () => {
     const [loggedIn, setLoggedIn] = useContext(UserContext);
+    console.log("destination",loggedIn);
   return (
     <div className='header'>
             <nav className="nav">
@@ -29,7 +30,7 @@ const Header = () => {
                             loggedIn.name ?
                             <span className='user-name'> {loggedIn.name}</span>
                             :
-                            <button as={Link} to='/login' className='btn-success'>Login</button>
+                            <Link to='/login' className='btn-success'>Login</Link>
                         }
                     </li>
                 </ul>

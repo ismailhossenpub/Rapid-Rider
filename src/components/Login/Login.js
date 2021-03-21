@@ -129,7 +129,7 @@ function Login() {
                     newUserInfo.error = '';
                     setUser(newUserInfo)
                     setLoggedIn(newUserInfo);
-                    history.replace(from);
+                    // history.replace(from);
                     console.log('user name', res.user);
                 })
                 .catch((error) => {
@@ -140,6 +140,7 @@ function Login() {
                 });
         }
         e.preventDefault()
+        history.replace(from);
     }
     const updateUsername = name => {
         var user = firebase.auth().currentUser;
